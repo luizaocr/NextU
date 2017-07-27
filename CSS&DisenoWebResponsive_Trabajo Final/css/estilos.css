@@ -1,0 +1,180 @@
+h1
+{
+  font-family: 'Dancing Script', cursive;
+  color: white;
+  text-shadow: 2px 2px  #02010a;
+  font-size: 25;
+}
+
+@media screen and (min-width: 900px) {  /*resolucion desktop*/
+  div
+  {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+    /*las 2 lineas de arriba de text-align y margin ayudan a centrar el contenido del elemento*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer
+  {
+    border-radius: 0px 0px 9px 9px;
+    background-color: #C6d5c5;
+    width: inherit;
+    order: 4;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 15;
+  }
+  header
+  {
+    border-radius: 11px 11px 0px 0px;
+    background-color: #5b7989;
+    width: 100%;
+    padding: 0.5%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: 1;
+  }
+}
+@media screen and (max-width: 900px) { /*resolucion moviles*/
+  div
+  {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    /*las 2 lineas de arriba de text-align y margin ayudan a centrar el contenido del elemento*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  footer
+  {
+    border-radius: 0px 0px 9px 9px;
+    background-color: #C6d5c5;
+    width: inherit;
+    order: 4;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 15;
+  }
+  header
+  {
+    border-radius: 11px 11px 0px 0px;
+    background-color: #5b7989;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    order: 1;
+  }
+}
+#cabeceraTitulo
+{
+  margin: auto;
+  text-align: center;
+}
+#cabeceraMenu
+{
+  margin: auto;
+  color: white;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.imagenCentral
+{
+  background-color: #82c3a6;
+  order: 2;
+  width: inherit;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+}
+.imagenSecundaria
+{
+  background-color: #d5c75f;
+  order: 3;
+  width: inherit;
+  padding: 4% 0% 2% 0%;
+  font-family: 'Dancing Script', cursive;
+  color: black;
+  font-size: 16;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.secundaria
+{
+  margin: auto;
+}
+
+img[src="imagenes/paisajes.png"]:hover
+{
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px 0px #82c3a6;
+  transform: rotate(10deg);
+  transition-duration: 1s;
+}
+
+img[src="imagenes/retratos.png"]:hover
+{
+  border-style: solid;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0px 0px #82c3a6;
+  transform: translate(20px, 5px);
+  transition-duration: 1s;
+}
+.pie
+{
+  margin-left: 6.5%;
+  text-align: left;
+}
+.imagenBlur
+{
+  margin: auto;
+  -webkit-filter: blur(10px);
+}
+.imagenGris
+{
+  margin: auto;
+  -webkit-filter: grayscale(100%);
+}
+.imagenSepia
+{
+  margin: auto;
+  -webkit-filter: sepia(90%);
+}
+a:link, a:visited, a:hover
+{
+  color: white;
+}
+.linkPaginaActual
+{
+  text-decoration: none;
+}
+.linkPaginaActual
+{
+  text-decoration: none;
+}
+picture, img
+{
+  box-shadow: 2px 2px 0px 0px black;
+}
